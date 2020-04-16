@@ -8,8 +8,8 @@ Stand: 2020-03-04 15:01:43
 ## Programmierprozess (Python-spezifisch)
 
 - Jupyter-Notebooks und Python-Skripte (bzw. -Module) haben unterschiedliche Vor- und Nachteile:
-- **Notebooks:**
-    - (+) Code und Ergebnis (Text/Grafik) in einem Dokument.
+- **Notebooks:** (`.ipynb-Dateien)
+    - (+) Code und Ergebnis (Text/Grafik) in *einem* Dokument.
     - (+) Interaktives Arbeiten (ausprobieren) funktioniert gut
     - (+) Niedrigschwelliges Anlegen neuer Notebooks
     - (-) Keine/Schlechte Untersstützung durch IDE (Pycharm, MS-Visual-Studio-Code, Spyder, ...)
@@ -18,12 +18,12 @@ Stand: 2020-03-04 15:01:43
     - (-) Tendenz zur Unübersichtlichkeit (Viele Notebooks in einem Verzeichnis, kein aussagekräftiger Name)
     - (-) Tendenz zur Code-Duplikation (Viele ähnliche Notebooks, die sich nur in kleinen aber ggf. wichtigen Details unterscheiden)
 
-- **Skripte:**
+- **Python Skripte:** (`.py-Dateien)
     - Enthalten nur Code (inkl. Kommentaren und Docstrings), Keine Ergebnisse
     - (+) Lassen sich von anderen Skripten/Notebooks importieren -> Ermöglicht Wiederverwendung von Code
     - (+) Können (und sollten) mit Unittests überprüft werden (siehe unten)
     - (+) Lassen sich ohne Maus über Kommandozeile aufrufen und mit Kommandozeilen-Argumenten steuern.
-    - (+) Sind meist etwas/deutlich schneller als Notebooks.
+    - (+) Sind meist etwas/deutlich schneller in der Ausführung als Notebooks.
 
     - (-) Interaktives Arbeiten (ausprobieren), ggf. umständlich, weil komplettes Skript immer wieder neu ausgeführt werden muss
         - Mögliche Abhilfe: `ipydex.IPS()` (Startet interaktive Kommandozeilen-Shell)

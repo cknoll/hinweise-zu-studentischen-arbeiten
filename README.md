@@ -1,11 +1,44 @@
-# Hinweise zur Anfertigung von Studien-, Diplom- und Masterarbeiten
+# Subjektive Hinweise zur Anfertigung von Studien-, Diplom- und Masterarbeiten
 
-Stand: 2020-03-04 15:01:43
+Stand: 2020-05-04
 
-**Achtung**: Diese Hinweise sind sehr subjektiv und ersetzen keinesfalls rechtsverbindliche Studiendokumente oder konkrete Absprachen im Betreuungsprozess.
+**Achtung**: Dieses Dokument fasst typische Hinweise aus vergangenen Betreuungsprozessen zusammen. Diese Hinweise sind sehr subjektiv und ersetzen keinesfalls rechtsverbindliche Studiendokumente oder konkrete Absprachen im Betreuungsprozess.
+
+Weitere wichtige Hinweise finden Sie auf der Webseite des Instituts für Regelungs- und Steuerungstheorie: [Hinweise für die Durchführung von Diplom-, Master- und Studienarbeiten](
+https://tu-dresden.de/ing/elektrotechnik/rst/studium/diplom-master-studienarbeit/hinweise-fuer-die-durchfuehrung-von-diplom-master-und-studienarbeiten).
+
+
+## Intellektueller Prozess
+
+- Das Anfertigen einer studentischen Arbeit ist ein aufwendiger und anstrengender Prozess.
+- Typischerweise umfasst er folgende (teilweise überlappende) Komponenten, wobei die Gewichtung stark vom Thema abhängt.
+    - Literaturrecherche
+        - Speichern Sie alle relevante Literatur, so dass sie im Schreibprozess die entsprechende Quelle möglichst schnell wiederfinden.
+        - Machen Sie sich (digitale) Anmerkungen. Formulieren Sie Fragen explizit.
+    - Konzeption und Berechnung
+        - Fertigen Sie ausgiebige handschriftliche Notizen an. Herleitungen, Berechnungen, Skizzen, Blockdiagramme, Variantenabwägungen, offene Fragen etc. Das Aufschreiben von Gedanken hilft beim Präzisieren.
+        - Geben Sie jedem Blatt eine Überschrift (z.B. "Stabilitätsbetrachtung"), notieren Sie das Datum und eine (tagesbeozgene) laufende Nummer. So können Sie später (z.B. im Quellcode auf Details verweisen.
+        - Heften Sie die Papiere zeitnah zusammen. Lose Blätter sind eine maßgebliche Entropiequelle.
+    - Software Entwicklung
+        - Nutzen Sie Versionsverwaltung (siehe [Hinweise](https://tu-dresden.de/ing/elektrotechnik/rst/studium/diplom-master-studienarbeit/hinweise-fuer-die-durchfuehrung-von-diplom-master-und-studienarbeiten) oben).
+        - Siehe weitere Hinweise unten
+    - Hardwareentwicklung, Versuchsvorbereitung und Durchführung von Experimenten
+        - Diese Tätigkeiten hängen oft von externen Faktoren ab (Lieferzeiten, Verfügbarkeit des Versuchsstandes, ...) und benötigen typischerweise mehr Zeit als geplant.
+
+## Interaktion mit dem Betreuer
+
+- Zeigen Sie Eigeninitiative, z.B. durch regelmäßige Statusberichte. Es geht um Ihre Arbeit.
+- Die Betreuungskapaziät ist beschränkt. Nutzen Sie sie möglichst effektiv.
+- Bereiten Sie Betreuungstreffen vor, z.B. durch
+    - Aufschreiben konkret zu klärender Fragen,
+    - Zusammenstellen der wichtigsten Grafiken,
+    - Zusammenfassung der beim letzten Mal angesprochenen Fragen, der seitdem erzielten Fortschritte und der neu aufgetretenen Fragen.
+- Das Nutzen eines Kanban-Organisationstools kann beiden Seiten helfen, die Übersicht zu bewahren.
 
 
 ## Programmierprozess (Python-spezifisch)
+
+- Allgemeine Infos: <https://tu-dresden.de/ing/elektrotechnik/rst/studium/python-in-der-lehre>
 
 - Jupyter-Notebooks und Python-Skripte (bzw. -Module) haben unterschiedliche Vor- und Nachteile:
 - **Notebooks:** (`.ipynb-Dateien)
@@ -41,9 +74,9 @@ Stand: 2020-03-04 15:01:43
 
 ### Automatisierte Software-Tests
 
-- Hintergrund: Um zu verhindern, dass beim Erweitern/Korrigieren/Ändern von Software bestehende Funktionalität versehentlich kaputt geht muss Software getestet werden.
-- Manuelle Tests sind kurzfristig schnell, aber weil man sie immer wieder ausführen muss (bzw. müsste) sind sie auf Dauer zeitaufwendig und unzuverlässig
-- Abhilfe: automatisierte Tests. Das ist Software, die Software teste und das Ergebnis mit einem vorgegebenen Ergebnis vergleicht.
+- Hintergrund: Um zu verhindern, dass beim Erweitern/Korrigieren/Ändern von Software bestehende Funktionalität versehentlich kaputt geht, muss Software getestet werden.
+- Manuelle Tests sind kurzfristig schnell, aber weil man sie immer wieder ausführen muss (bzw. müsste) sind sie auf Dauer zeitaufwendig und unzuverlässig.
+- Abhilfe: automatisierte Tests. Das ist Software, die Software testet und das Ergebnis mit einem vorgegebenen Ergebnis vergleicht.
 - In Python: [unittest-Modul](https://docs.python.org/3/library/unittest.html)
 - Siehe auch: [Testgetriebene Entwicklung](https://de.wikipedia.org/wiki/Testgetriebene_Entwicklung)
     - Für die Wissenschaft und Anfänger:innen nur sehr bedingt geeignet
@@ -92,8 +125,7 @@ Quellcode, der längere Verwendung finden und möglichst wenig Probleme bereiten
 
 
 
-
-## Inhalt
+### Inhalt
 
 Fogende Eigenschaften sind erstrebenswert und haben Einfluss auf die Bewertung
 
@@ -103,7 +135,7 @@ Fogende Eigenschaften sind erstrebenswert und haben Einfluss auf die Bewertung
 - Gut verständlicher Text (kein unbekanntes Wissen voraussetzen: Sie selbst sollten die Arbeit verstehen, auch wenn sie ein anderes Thema bearbeitet hätten)
 - Gute Quellenarbeit: Behauptungen, die Sie nicht selber erklären, sollten mit Literatur belegt sein. Möglichst mit Angabe von Abschnitt oder Seite, also z.B. [11, Abschnitt 5.2].
 
-## Formalia
+### Formalia
 
 - Bedeutung *aller* Variablen einführen / erklären. Eine Aufführung im Symbolverzeichnis reicht *nicht*.
 - Formeln gehören zum jeweils umgebenden Satz, d.h. nach einer Formel muss dann meist auch ein Komma oder ein Punkt stehen. Am besten an Vorbildern (Z.B. Buch von Prof. Röbenack, Dissertation vom Betreuer) orientieren. Achtung: Manche Veröffentlichungen sind dafür kein gutes Beispiel.
@@ -113,7 +145,7 @@ Fogende Eigenschaften sind erstrebenswert und haben Einfluss auf die Bewertung
 - Quellen in Büchern möglichst mit konkreter Angabe, Abschnitt, Seite, etc. Fikitives Beispiel: "Nähere Informationen dazu finden sich in [19, Abschnitt 2.4.1]" (LaTeX: \cite[Abschnitt 2.4.1]{Mayer2011_Optimierung}).
 
 
-## LaTeX Hinweise
+### LaTeX Hinweise
 
 - LaTeX bietet optionale Kurzversion für das Abbildungsverzeichnis bei zu langen Bildunterschriften
 - \eqref statt \ref für Verweise auf Formeln
@@ -121,7 +153,7 @@ Fogende Eigenschaften sind erstrebenswert und haben Einfluss auf die Bewertung
 - Subequations kann man je nach Label zusammen oder getrennt referenzieren: "Gleichung (24)" oder "Gleichung (24b)"
 - Deutsche Anführungszeichen in LaTeX bei Verwendung mit babel: "`Hallo Welt"'
 
-## Grafiken
+### Grafiken
 
 - Achsen beschriften!, Symbole und Text lesbar (Schriftgröße/Kontrast), Linien gut erkennbar (Farbe/Linienstil)
 - Vektorgrafiken (PDF) oft besser als Pixelgrafiken. Bei Pixelgrafiken ist PNG meist besser als JPG (wegen Kompressionsverlusten bei JPG).

@@ -152,6 +152,8 @@ Fogende Eigenschaften sind erstrebenswert und haben Einfluss auf die Bewertung
 - Verwendung von := (Definition von a durch a:= b + c) und \stackrel{!}{=} (Forderung/Bedingung) wo es angebracht ist. Das erleichtert das Verständnis.
 - Subequations kann man je nach Label zusammen oder getrennt referenzieren: "Gleichung (24)" oder "Gleichung (24b)"
 - Deutsche Anführungszeichen in LaTeX bei Verwendung mit babel: "`Hallo Welt"'
+- Ableitungspunkt kommt zentral über die Variable (ohne Indizes): richtig: `\dot{x}_1`, falsch: `\dot{x_1}`.
+- Unter Windows sperrt der Acrobat-Reader die PDF-Datei und verhinder deshalb, dass sie von LaTeX neu geschrieben werden kann. Empfehlung: Verwendung des freien und schnellen PDF-Readers [Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader.html)
 
 ### Grafiken
 

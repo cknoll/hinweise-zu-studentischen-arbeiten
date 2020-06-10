@@ -97,6 +97,25 @@ Quellcode, der längere Verwendung finden und möglichst wenig Probleme bereiten
 - In den meisten Fällen sind englische Bezeichner und Kommentare sinnvoll. Für den Einsatz in der Lehre kann davon ggf. abgewichen werden.
 
 
+## Versionsverwaltung mit git
+
+- Gut nachvollziehbare Dokumentation des Arbeitsfortschritts mit Versionskontrolle hat mehrere Vorteile:
+    - Mehr Sicherheit für Sie, denn Sie können jederzeit zu einem früheren Stand zurückkehren
+    - Erleichterung des Betreuungsprozesses (was hat sich seit der letzen Besprechung geändert)
+    - Ggf. Verwaltung von Parallelitäten in Zweigen ("Branches"), z.B. um ein experimentelles Feature einzubauen
+- Nachvollziehbarkeit erreichen Sie durch
+    - Thematisch zusammengehörige Änderungen auch zusammen kommittieren.
+    - Änderungen die mehrere Themen betreffen möglichst getrennt kommittieren
+    - Aussagekräftige und eindeutige Kommit-Nachrichten schreiben
+    - Kommit-Geschichte editieren, siehe <https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History>, z.B.:
+        - `git comit --amend` verwenden, um nachträglich Kommits zu ändern (Nachricht uder Inhalt)
+        - `git rebase --interactive HEAD~5` (die letzten fünf Kommits umsortieren , zusammenlegen, etc.)
+    - Bei paralleler Arbeit an mehreren Zweigen möglichst `rebase` statt `merge` verwenden (→ lineare History)
+        - Gute Animation: https://onlywei.github.io/explain-git-with-d3/#rebase
+    - `git push -f` sehr vorsichtig verwenden (erst pushen, wenn die History gut ist)
+- `gitk --all` oder git gui helfen bei der Übersicht, besonders bei mehreren Zweigen
+- Im LaTeX-Repo: pdf-Datei nur Kommitten, wenn deren Änderung relevant ist
+
 ## Sonstiges
 
 - Manchmal ist es sinnvoll zwei ((Quell-)Text-)Dateien zu vergleichen. Dafür gibt es sog. textbasierte und grafische Diff-Tools. Der Autor verwendet *kdiff3*, aber es gibt verschiedene [Alternativen](https://alternativeto.net/software/kdiff3/). Eine Integration eines solchen Tools mit *git* ist sehr sinnvoll (aber nicht der einzige Anwendungsfall).

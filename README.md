@@ -1,6 +1,6 @@
 # Subjektive Hinweise zur Anfertigung von Studien-, Diplom- und Masterarbeiten
 
-Stand: 2020-05-04
+Stand: 2020-06-26
 
 **Achtung**: Dieses Dokument fasst typische Hinweise aus vergangenen Betreuungsprozessen zusammen. Diese Hinweise sind sehr subjektiv und ersetzen keinesfalls rechtsverbindliche Studiendokumente oder konkrete Absprachen im Betreuungsprozess.
 
@@ -126,14 +126,18 @@ Quellcode, der längere Verwendung finden und möglichst wenig Probleme bereiten
 
 ## Schreibprozess der Arbeit
 
-- Gliederung anlegen und immer weiter verfeinern, zu einzelnen Abschnitten Stichpunkte aufschreiben, dann ausformulieren und ggf. andere Abschnitte mit Stichpunkten ergänzen
+- Empfehlung: Noch in der ersten Woche der Arbeit ein Dokument (typischerweise in LaTeX) anlegen, aus dem dann Schritt für Schritt die Arbeit wächst
+	+ Nutzen Sie die [Vorlage](https://tu-dresden.de/ing/elektrotechnik/rst/studium/diplom-master-studienarbeit/hinweise-fuer-die-durchfuehrung-von-diplom-master-und-studienarbeiten) des Instituts und beachten Sie die weiteren [Hinweise](https://tu-dresden.de/ing/elektrotechnik/rst/studium/diplom-master-studienarbeit/hinweise-fuer-die-durchfuehrung-von-diplom-master-und-studienarbeiten).
+	+ Frühzeitiges Anlegen des Dokuments senkt die erfahrungsgemäß signifikante Hürde, mit dem Schreibprozess zu beginnen.
+	+ (Vorläufige) Gliederung (Schema: *Einleitung*, *Grundlagen*, *Untersuchungen*, *Ergebnisse*, *Zusammefassung*) anlegen und immer weiter verfeinern, zu einzelnen Abschnitten Stichpunkte aufschreiben, dann ausformulieren und ggf. andere Abschnitte mit Stichpunkten ergänzen
+	+ Zwischenergebnisse in Form von Grafiken oder Fragen temporär in das Dokument aufnehmen (z.B. als Grundlage für Betreuungsgespräch)
 - Einleitung und Vorwort und Zusammenfassung und Ausblick ziemlich am Ende ausformulieren.
-- Nicht die Zeit für das Schreiben unterschätzen. Realistischer Richtwert: 1-5 Seiten pro Tag.
-- Ausreichend Zeit für Korrekturen einplanen (Zeitplan machen und regelmäßig überprüfen, spätestens eine Woche vor dem Ausdrucken sollte die Arbeit inhaltlich fertig sein.)
+- Nicht die Zeit für das Schreiben unterschätzen. Realistischer Richtwert: 1-3 Seiten pro Tag (wenn Inhalt und Grafiken klar sind).
+- Ausreichend Zeit für Korrekturen einplanen (Zeitplan machen und regelmäßig überprüfen, allerspätestens eine Woche vor dem Ausdrucken sollte die Arbeit inhaltlich fertig sein. Korrekturen einzelner Kapitel sollten schon früher beginnen.)
 - Möglichst externe Korrekturleser organisieren (für die Sprache, für den Inhalt bzw. Verständlichkeit)
 - nicht "beratungsresistent" sein, andere Entscheidungen ggf. begründen
-- hilfreich: gute Fachliteratur als Vorbild nehmen (für Formulierungen und Notaion)
-- Versionsverwaltung (git) für den LaTeX-Quellcode sinnvoll. Lokal oder auf einem Server. Nicht das gleiche Repo wie für den Programm-Quelltext verwenden. Häufige Commits sind hilfreich, wenn man später nochmal zurück möchte.
+- hilfreich: gute Fachliteratur als Vorbild nehmen (für Formulierungen und Notaion). Orientierung an bisherigen Veröffentlichungen [des Institutsdirektors](https://www.springer.com/de/book/9783662440902) bzw. [des Betreuers](https://tud.qucosa.de/landing-page/?tx_dlf[id]=https%3A%2F%2Ftud.qucosa.de%2Fapi%2Fqucosa%253A29777%2Fmets) 
+- Versionsverwaltung (git) auch für den LaTeX-Quellcode sinnvoll. Lokal oder auf einem Server. Nicht das gleiche Repo wie für den Programm-Quelltext verwenden. Häufige Commits sind hilfreich, wenn man später nochmal zurück möchte.
 - Wenn es schwierig ist, eine gute/passende Formulierung zu finden, dann erstmal eine "subobtimale" Formulierung in Rot in den Text schreiben und sich nicht so lange damit aufhalten. Später kommt vielleicht eine bessere Idee.
 
 
@@ -157,11 +161,11 @@ Fogende Eigenschaften sind erstrebenswert und haben Einfluss auf die Bewertung
 ### Formalia
 
 - Bedeutung *aller* Variablen einführen / erklären. Eine Aufführung im Symbolverzeichnis reicht *nicht*.
-- Formeln gehören zum jeweils umgebenden Satz, d.h. nach einer Formel muss dann meist auch ein Komma oder ein Punkt stehen. Am besten an Vorbildern (Z.B. Buch von Prof. Röbenack, Dissertation vom Betreuer) orientieren. Achtung: Manche Veröffentlichungen sind dafür kein gutes Beispiel.
+- Formeln gehören zum jeweils umgebenden Satz, d.h. nach einer Formel muss dann meist auch ein Komma oder ein Punkt stehen. Am besten an Vorbildern (Z.B. Buch von [Prof. Röbenack](https://www.springer.com/de/book/9783662440902) oder [Dissertation des Betreuers](https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-209765)) orientieren. Achtung: Manche Veröffentlichungen sind dafür kein gutes Beispiel.
 - Bildunterschriften enden mit einem Punkt.
 - Eine Grafik oder Tabelle erst im Text erwähnen, bevor sie erscheint. Sonst wundert man sich beim Lesen was auf einmal diese Grafik bedeuten soll.
 - Sätze möglichst nicht mit Symbol beginnen. Schlecht: "$m$ bezeichnet dabei die Masse." Besser: "Dabei bezeichnet $m$ die Masse."
-- Quellen in Büchern möglichst mit konkreter Angabe, Abschnitt, Seite, etc. Fikitives Beispiel: "Nähere Informationen dazu finden sich in [19, Abschnitt 2.4.1]" (LaTeX: \cite[Abschnitt 2.4.1]{Mayer2011_Optimierung}).
+- Quellen in Büchern möglichst mit konkreter Angabe, Abschnitt, Seite, etc. Fikitives Beispiel: "Nähere Informationen dazu finden sich in [19, Abschnitt 2.4.1]" (LaTeX: `\cite[Abschnitt 2.4.1]{Mayer2011_Optimierung}`).
 
 
 ### LaTeX Hinweise
@@ -178,10 +182,10 @@ Fogende Eigenschaften sind erstrebenswert und haben Einfluss auf die Bewertung
 
 - Achsen beschriften!, Symbole und Text lesbar (Schriftgröße/Kontrast), Linien gut erkennbar (Farbe/Linienstil)
 - Vektorgrafiken (PDF) oft besser als Pixelgrafiken. Bei Pixelgrafiken ist PNG meist besser als JPG (wegen Kompressionsverlusten bei JPG).
-    - Beispiel: `plt.savefig("diagram_i_u.pdf")`
-- Zum "Hübsch-Machen" von Grafiken (in matplotlib) müssen typischerweise plot-Parameter angepasst werden, z.B. plt.rcParams["font.size"] = 14, plt.rcParams['figure.subplot.bottom'] = .265, usw.
+    - Beispiel: `plt.savefig("diagram_i_u.pdf")` oder `plt.savefig("raster_image.png")`
+- Zum "Hübsch-Machen" von Grafiken (in matplotlib) müssen typischerweise plot-Parameter angepasst werden, z.B. `plt.rcParams["font.size"] = 14`, `plt.rcParams['figure.subplot.bottom'] = .265`, usw.
 - Grafiken müssen typischerweise 10 bis 100 mal erstellt werden bis sie "richtig schön" sind. Deshalb ist es sinnvoll,
-die Daten für die Erstellung (z.B. aus Simulation/aufwendiger Berechnung) separat zu speichern (z.B. numpy.save(...) oder pickle.dump(...)) und die Erstellung der Grafik(en) in einem separaten Skript oder Notebook durchzuführen. Daten laden (numpy.load(...), pickle.load(...)) -> Plotten.
+die Daten für die Erstellung (z.B. aus Simulation/aufwendiger Berechnung) separat zu speichern (z.B. `numpy.save(...)` oder `pickle.dump(...)`) und die Erstellung der Grafik(en) in einem separaten Skript oder Notebook durchzuführen. Daten laden (`numpy.load(...)`, `pickle.load(...)`) -> Plotten.
 
 
 ## Organisatorisches

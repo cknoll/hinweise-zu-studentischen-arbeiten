@@ -37,6 +37,12 @@ https://tu-dresden.de/ing/elektrotechnik/rst/studium/diplom-master-studienarbeit
     - Zusammenfassung der beim letzten Mal angesprochenen Fragen, der seitdem erzielten Fortschritte und der neu aufgetretenen Fragen.
 - Das Nutzen eines Kanban-Organisationstools kann beiden Seiten helfen, die Übersicht zu bewahren.
 
+## Zeitplanung
+
+- Grundregel: Die meisten Vorhaben dauern signifikant länger als geplant (Auch trotz Einbezug der dieser Grundregel in die Planung).
+- Lange Zeiträume und große Aufgaben sind anfällig für ineffizientes Arbeiten (Bsp: Sechs Monate – Diplomarbeit schreiben). Setzen Sie sich Zwischenziele mit konkreten Terminen. Z.B.: "Bis nächsten Mittwoch: Kapitel 4 fertig zum Korrekturlesen.", "Bis 16:30 Uhr: Software XYZ installiert und getestet."
+- Probieren Sie die Nutzung eines Zeiterfassungs-Werkzeuges aus, z.B. "[super productivity](https://super-productivity.com/)".
+
 
 ## Programmierprozess (Python-spezifisch)
 

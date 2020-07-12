@@ -24,6 +24,8 @@ https://tu-dresden.de/ing/elektrotechnik/rst/studium/diplom-master-studienarbeit
         - Siehe weitere Hinweise unten
     - Hardwareentwicklung, Versuchsvorbereitung und Durchführung von Experimenten
         - Diese Tätigkeiten hängen oft von externen Faktoren ab (Lieferzeiten, Verfügbarkeit des Versuchsstandes, ...) und benötigen typischerweise mehr Zeit als geplant.
+- Formulieren Sie die jeweilige Frage, der sie aktuell nachgehen, schriftlich. Z.B. Wie hängt die Lösbarkeit der Gleichung (XYZ) von Parameter *µ* ab? Welche weiteren Quellen verweisen noch auf \[17\]?
+- Allgemeine Hinweise zum Lösen von Forschungsfragen finden sich in dem Artikel "[Solving Research Problemes](http://www-personal.umich.edu/~dsbaero/tutorials/SolvingResearchProblemsV1.pdf)" von D. S. Bernstein. Insbesondere die Hinweise Nr. 4, 8, 19, 22 sind hervorzuheben.
 
 ## Interaktion mit dem Betreuer
 

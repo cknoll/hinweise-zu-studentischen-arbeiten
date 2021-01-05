@@ -103,6 +103,14 @@ Quellcode, der längere Verwendung finden und möglichst wenig Probleme bereiten
 - Aussagekräftige Bezeichner (Namen für Variablen, Funktionen Klassen). Abkürzungen können verwendet werden sollten aber in Kommentaren uder Docstrings erläutert werden.
 - Kommentare die komplizierte Stellen beschreiben (Bei Bedarf: was passiert, meist sinnvoll: warum passiert das hier).
 - In den meisten Fällen sind englische Bezeichner und Kommentare sinnvoll. Für den Einsatz in der Lehre kann davon ggf. abgewichen werden.
+- Vermeiden Sie hart kodierte absolute Pfade zu Dateien oder Verzeichnissen. Code der solche Pfade enthält auf de facto allen anderen Systemen nicht lauffähig und kann demnach von Ihrem Betreuer so nicht ausgeführt werden. Tipp: Wenn relative Pfade wie `../../data` nicht ausreichen, definieren Sie absolute Pfade zur Laufzeit, z. B. so: 
+```
+import os
+import sys
+# get absolute path of directory of this file
+current_dir = os.path.dirname(os.path.abspath(sys.modules.get(__name__).__file__))
+```
+- Wenn Sie Jupyter-Notebooks für einen Zwischen-Bericht oder am Ende der Arbeit einreichen, vergewissern Sie sich, dass jedes Notebook auch wirklich fehlerfrei durchläuft. Hintergrund: Durch das Interaktive arbeiten passiert es oft, dass eine Zelle nachträglich geändert wird, was erst beim nächsten Neustart des Notebook-Kernels auffällt.
 
 
 ## Versionsverwaltung mit git

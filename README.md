@@ -217,13 +217,13 @@ die Daten für die Erstellung (z.B. aus Simulation/aufwendiger Berechnung) separ
 
 - Verteidigung Diplomarbeit: 30min Vortrag + Fragen
 - Verteidigung Studienarbeit: 25min Vortrag + Fragen
-- Richtwert: 0.5 bis 1 Folie (mit echtem Inhalt) pro Minute. -> ca. 30 Folien für den Vortrag
+- Richtwert: 0.5 bis 1 Folie (mit echtem Inhalt) pro Minute. -> Obergrenze: ca. 30 Folien 
 
 - Es passt nicht alles aus der Arbeit in den Vortrag. Groben Überblick geben und dann ausgewählte Details vorstellen. -> Nachvollziebare Gliederung.
-- Folien nicht zu voll packen damit Publikum nicht erschlagen wird. Schrittweiser Aufbau und farbliche Hervorhebungen können didaktisch sehr hilfreich sein (-> Zusatzaufwand)
-- Typischerweise keine Formelnummerierungen und keine Ganzen Sätze (sondern Stichpunkte) auf Folien
+- Folien nicht zu voll packen, damit Publikum nicht erschlagen wird. Bei komplexen Folien: Schrittweiser Aufbau und farbliche Hervorhebungen können didaktisch sehr hilfreich sein (-> Zusatzaufwand beim Erstellen berücksichtigen)
+- Typischerweise keine Formelnummerierungen und keine ganzen Sätze (sondern Stichpunkte) auf Folien
 - Abbildungsunterschriften eher unüblich (Ausnahme: Angabe fremder Quellen)
-- Erkennbarkeit der Grafiken noch wichtiger als in der Arbeit (Kontrast auf dem Beamer ist meist schlechter (keine gelben Kurven auf weißem Grund!), Publikum sitzt ggf. weit weg von der Projektionsfläche, weniger Betrachtungszeit)
+- Erkennbarkeit der Grafiken (inkl. Achsbeschriftungen, etc.) noch wichtiger als in der Arbeit (Kontrast auf dem Beamer ist meist schlechter (keine gelben Kurven auf weißem Grund!), Publikum sitzt ggf. weit weg von der Projektionsfläche, weniger Betrachtungszeit). Bei Online-Verteidigungen: ggf. Einbußen bei Übertragungsqualität berücksichtigen.
 - Votrag vorher mindestens drei mal üben. ggf. mit Diktiergerät-App aufnehmen und anhören. Der erste Übungsdurchlauf dauert erfahrungsgemäß deutlich länger. Kurze Notizen machen, welche Folien Änderungsbedarf haben.
 - Vortrag spätestens ca. drei Tage vor der Verteidigung an Betreuer schicken
 

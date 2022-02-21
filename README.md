@@ -197,6 +197,7 @@ Fogende Eigenschaften sind erstrebenswert und haben Einfluss auf die Bewertung
 ### Grafiken
 
 - Achsen beschriften!, Symbole und Text lesbar (Schriftgröße/Kontrast), Linien gut erkennbar (Farbe/Linienstil)
+  - Minimale Schriftgröße in Abbildungen sollte ca. der Schriftgröße von Fußnoten im Text entsprechen.
 - Vektorgrafiken (PDF) oft besser als Pixelgrafiken. Bei Pixelgrafiken ist PNG meist besser als JPG (wegen Kompressionsverlusten bei JPG).
     - Beispiel: `plt.savefig("diagram_i_u.pdf")` oder `plt.savefig("raster_image.png")`
 - Zum "Hübsch-Machen" von Grafiken (in matplotlib) müssen typischerweise plot-Parameter angepasst werden, z.B. `plt.rcParams["font.size"] = 14`, `plt.rcParams['figure.subplot.bottom'] = .265`, usw.

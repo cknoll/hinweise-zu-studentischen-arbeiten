@@ -203,6 +203,54 @@ Fogende Eigenschaften sind erstrebenswert und haben Einfluss auf die Bewertung
 - Zum "Hübsch-Machen" von Grafiken (in matplotlib) müssen typischerweise plot-Parameter angepasst werden, z.B. `plt.rcParams["font.size"] = 14`, `plt.rcParams['figure.subplot.bottom'] = .265`, usw.
 - Grafiken müssen typischerweise 10 bis 100 mal erstellt werden bis sie "richtig schön" sind. Deshalb ist es sinnvoll,
 die Daten für die Erstellung (z.B. aus Simulation/aufwendiger Berechnung) separat zu speichern (z.B. `numpy.save(...)` oder `pickle.dump(...)`) und die Erstellung der Grafik(en) in einem separaten Skript oder Notebook durchzuführen. Daten laden (`numpy.load(...)`, `pickle.load(...)`) -> Plotten.
+- Beispiel einer Plot-Datei:
+    ```python
+    import matplotlib.pyplot as plt
+    import numpy as np
+
+    # Schriftgrößen und Randabstände
+
+    plt.rcParams['text.usetex'] = True  # LaTeX-aktivieren
+    plt.rcParams['font.size'] = 12
+    plt.rcParams['legend.fontsize'] = 10
+    plt.rcParams['figure.subplot.bottom'] = .18
+    plt.rcParams['figure.subplot.left'] = .20
+    plt.rcParams['figure.subplot.top'] = .98
+    plt.rcParams['figure.subplot.right'] = .96
+    plt.rcParams['font.family'] = 'serif'
+
+    # Plot-Größe und Skalierungsfaktor
+    mm = 1./25.4  # mm to inch
+    scale = 1
+    fs = [78*mm*scale, 60*mm*scale]
+    fig1 = plt.figure(1, figsize=fs)
+
+    # Daten laden
+    tt, X1, X2, X3, X4, X5, X6, tau1, tau2 = np.load('transition1.npy').T
+
+    plt.plot(tt, tau1, label=r'$\tau_1(t)$')
+    plt.plot(tt, tau2, label=r'$\tau_2(t)$')
+
+    plt.axis([tt[0], tt[-1], -33, 42])
+    plt.xlabel(r'$t~\mathrm{in~s}$')
+    plt.ylabel(r'$\tau_1(t)~ \mathrm{in~ N~ und}~ \tau_2(t)~ \mathrm{in~ N\,m} $')
+    plt.legend(loc='best')
+
+    plt.savefig('wwp_tau1_tau2_tt.pdf')
+    ```
+- passender LaTeX-Code:
+    ```latex
+    \begin{figure}[ht]
+    \begin{center}
+    % hier keine Skalierung notwendig, wenn Datei schon mit passender figsize angelegt wurde:
+    \includegraphics{img/wwp_tau1_tau2_tt}
+    \end{center}
+    \caption[Kurzbeschreibung für Abbildungsverzeichnis]
+    {Langbeschreibung, die gerne auch über mehrer Zeilen gehen darf.}
+    \label{fig_wwp_simres}
+    \end{figure}
+    ```
+
 
 
 ## Organisatorisches

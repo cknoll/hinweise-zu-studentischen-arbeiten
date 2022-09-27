@@ -4,8 +4,7 @@ Stand: 2020-06-26
 
 **Achtung**: Dieses Dokument fasst typische Hinweise aus vergangenen Betreuungsprozessen zusammen. Diese Hinweise sind sehr subjektiv und ersetzen keinesfalls rechtsverbindliche Studiendokumente oder konkrete Absprachen im Betreuungsprozess.
 
-Weitere wichtige Hinweise finden Sie auf der Webseite des Instituts für Regelungs- und Steuerungstheorie: [Hinweise für die Durchführung von Diplom-, Master- und Studienarbeiten](
-https://tu-dresden.de/ing/elektrotechnik/rst/studium/diplom-master-studienarbeit/hinweise-fuer-die-durchfuehrung-von-diplom-master-und-studienarbeiten).
+Weitere wichtige Hinweise finden Sie auf der Webseite des Instituts für Regelungs- und Steuerungstheorie: [Hinweise für die Durchführung von Diplom-, Master- und Studienarbeiten](https://tu-dresden.de/ing/elektrotechnik/rst/studium/diplom-master-studienarbeit).
 
 
 ## Intellektueller Prozess

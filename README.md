@@ -177,6 +177,8 @@ Fogende Eigenschaften sind erstrebenswert und haben Einfluss auf die Bewertung
 
 - Bedeutung *aller* Variablen einführen / erklären. Eine Aufführung im Symbolverzeichnis reicht *nicht*.
 - Formeln gehören zum jeweils umgebenden Satz, d.h. nach einer Formel muss dann meist auch ein Komma oder ein Punkt stehen. Am besten an Vorbildern (Z.B. Buch von [Prof. Röbenack](https://www.springer.com/de/book/9783662440902) oder [Dissertation des Betreuers](https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-209765)) orientieren. Achtung: Manche Veröffentlichungen sind dafür kein gutes Beispiel.
+- Ein Satz sollte nicht mit einem Formelzeichen beginnen.
+- Indizes, die Worte oder Abkürzungen darstellen (und keine Variablen) sollten mit `mathrm{...}` gesetzt sein: `$Q_\mathrm{ein}$` statt $`Q_{ein}`$.
 - Bildunterschriften enden mit einem Punkt.
 - Eine Grafik oder Tabelle erst im Text erwähnen, bevor sie erscheint. Sonst wundert man sich beim Lesen was auf einmal diese Grafik bedeuten soll.
 - Sätze möglichst nicht mit Symbol beginnen. Schlecht: "$m$ bezeichnet dabei die Masse." Besser: "Dabei bezeichnet $m$ die Masse."

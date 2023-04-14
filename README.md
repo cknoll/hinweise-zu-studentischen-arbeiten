@@ -160,8 +160,7 @@ current_dir = os.path.dirname(os.path.abspath(sys.modules.get(__name__).__file__
         \newcommand{\tcred}[1]{\textcolor{red}{#1}} % für tmp-Hervorhebungen
         % ...
         \tcred{subobtimale Formulierung}
-
-
+<!--  -->
 
 ### Inhalt
 
@@ -190,8 +189,11 @@ Fogende Eigenschaften sind erstrebenswert und haben Einfluss auf die Bewertung
 - LaTeX bietet optionale Kurzversion für das Abbildungsverzeichnis bei zu langen Bildunterschriften
 - \eqref statt \ref für Verweise auf Formeln
 - Verwendung von := (Definition von a durch a:= b + c) und \stackrel{!}{=} (Forderung/Bedingung) wo es angebracht ist. Das erleichtert das Verständnis.
+- Zusammengehörige Gleichungen mit `\begin{subequations} ... \end{subequations}` zusammenfassen.
 - Subequations kann man je nach Label zusammen oder getrennt referenzieren: "Gleichung (24)" oder "Gleichung (24b)"
-- Deutsche Anführungszeichen in LaTeX bei Verwendung mit babel: "`Hallo Welt"'
+- Gleichungen mit `\eqref{eq_label}` statt mit `\ref{eq_label}` referenzieren, denn die Klammern um die Gleichungsnummer sollten mitgeschrieben werden.
+- Deutsche Anführungszeichen in LaTeX bei Verwendung mit babel: `"\`Hallo Welt"'` oder `„Hallo Welt“`.
+- Abkürzungen, die einen Punkt enthalten bekommen ein halbes Leerzeichen zwischen die Symbole: `d.\,h.` statt `d.h.`.
 - Ableitungspunkt kommt zentral über die Variable (ohne Indizes): richtig: `\dot{x}_1`, falsch: `\dot{x_1}`.
 - Unter Windows sperrt der Acrobat-Reader die PDF-Datei und verhinder deshalb, dass sie von LaTeX neu geschrieben werden kann. Empfehlung: Verwendung des freien und schnellen PDF-Readers [Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader.html)
 
